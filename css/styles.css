@@ -1,0 +1,63 @@
+body {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	background-color: gray;
+}
+
+/** header **/
+.navbar {
+	background-color: salmon;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header {
+	height: 75px;
+}
+
+.navbar-brand h1 {
+	color: lightgray;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button {
+	margin-top: 22.5px;
+	border: black 1px;
+}
+
+#nav-list {
+	margin-top: 0px;
+}
+
+#nav-list a {
+	background-color: salmon;
+}
+
+
+section > div > div {
+	border:white solid 1px;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+}
+
+.menudescription {
+	padding: 10px;
+}
+
+#b2t {
+	color: salmon;
+}
+
+#b2t a:hover, #b2t a:focus {
+	text-decoration: none;
+}
+
+#sectionrow {
+	width: 100%;
+	margin: 0;
+}
